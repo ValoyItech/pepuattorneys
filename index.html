@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepu Attorneys | Expert Legal Solutions in Midrand</title>
+<meta name="description" content="Pepu Attorneys offers professional legal services in Family Law, Civil Litigation, Contract Law, Labour Law, and more. Schedule a consultation today.">
+<meta name="keywords" content="law firm, legal services, Midrand attorneys, family law, litigation, contract law, Pepu Attorneys, legal consultation South Africa">
+<meta name="author" content="Pepu Attorneys">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pepu Attorneys | Expert Legal Solutions">
+<meta property="og:description" content="Experienced legal professionals helping you navigate your legal matters with confidence.">
+<meta property="og:image" content="https://www.pepu.co.za/images/logo.png"> <!-- Replace with actual logo URL -->
+<meta property="og:url" content="https://www.pepu.co.za"> <!-- Replace with your domain -->
+<meta property="og:site_name" content="Pepu Attorneys">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pepu Attorneys | Expert Legal Solutions">
+<meta name="twitter:description" content="Trusted legal experts in Midrand for Family Law, Litigation, and more.">
+<meta name="twitter:image" content="https://www.pepu.co.za/images/logo.png"> <!-- Same logo URL -->
+
+<!-- Favicon -->
+<link rel="icon" href="images/logo.png" type="image/png" />
+<!-- Favicon for modern browsers -->
+<link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png">
+
+<!-- Optional for Apple devices -->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+
+<!-- Optional for legacy support -->
+<link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': '#1e3a8a',
+                        'dark-navy': '#1e2a5e'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e2a5e 0%, #2563eb 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .gradient-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+        
+        .animated-bg {
+            background: linear-gradient(-45deg, #f8fafc, #e2e8f0, #cbd5e1, #94a3b8);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .floating-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .floating-icon {
+            position: absolute;
+            color: rgba(255,255,255,0.1);
+            animation: float 8s ease-in-out infinite;
+        }
+        
+        .floating-icon:nth-child(1) {
+            top: 15%;
+            left: 8%;
+            font-size: 3rem;
+            animation-delay: 0s;
+        }
+        
+        .floating-icon:nth-child(2) {
+            top: 25%;
+            right: 12%;
+            font-size: 2.5rem;
+            animation-delay: 2s;
+        }
+        
+        .floating-icon:nth-child(3) {
+            top: 60%;
+            left: 15%;
+            font-size: 2rem;
+            animation-delay: 4s;
+        }
+        
+        .floating-icon:nth-child(4) {
+            top: 70%;
+            right: 8%;
+            font-size: 3.5rem;
+            animation-delay: 6s;
+        }
+        
+        .floating-icon:nth-child(5) {
+            top: 40%;
+            left: 50%;
+            font-size: 2rem;
+            animation-delay: 1s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.1; }
+            50% { transform: translateY(-30px) rotate(10deg); opacity: 0.2; }
+        }
+        
+        .changing-text {
+            display: inline-block;
+            min-width: 300px;
+            text-align: left;
+        }
+        
+        .text-fade {
+            animation: textFade 4s ease-in-out infinite;
+        }
+        
+        @keyframes textFade {
+            0%, 20% { opacity: 1; transform: translateY(0); }
+            25%, 75% { opacity: 0; transform: translateY(-20px); }
+            80%, 100% { opacity: 1; transform: translateY(0); }
+        }
+        
+        .service-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(30, 42, 94, 0.1), transparent);
+            transition: left 0.5s;
+        }
+        .service-card:hover::before {
+            left: 100%;
+        }
+        .service-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            border-color: #1e2a5e;
+        }
+        
+        .team-card {
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .team-card .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(30, 42, 94, 0.9));
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+            padding: 20px;
+            color: white;
+        }
+        .team-card:hover .overlay {
+            transform: translateY(0);
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        .animate-slide-up {
+            animation: slideUp 1s ease-out;
+        }
+        .animate-slide-left {
+            animation: slideLeft 1s ease-out 0.3s both;
+        }
+        .animate-slide-right {
+            animation: slideRight 1s ease-out 0.6s both;
+        }
+        .animate-bounce-in {
+            animation: bounceIn 1.2s ease-out 0.9s both;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideLeft {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes slideRight {
+            from { opacity: 0; transform: translateX(50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes bounceIn {
+            0% { opacity: 0; transform: scale(0.3); }
+            50% { opacity: 1; transform: scale(1.05); }
+            70% { transform: scale(0.9); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        
+        .text-glow {
+            text-shadow: 0 0 20px rgba(255,255,255,0.5);
+        }
+        
+        .btn-hover {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .btn-hover::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        .btn-hover:hover::before {
+            left: 100%;
+        }
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #1e2a5e;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.6s ease;
+        }
+        .scroll-reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <div class="flex-shrink-0 flex items-center space-x-3">
+                    <img src="images/logo.jpg" alt="Pepu Attorneys Logo" class="h-10 w-auto">
+                    <div class="bg-dark-navy text-white px-4 py-2 rounded-lg font-bold text-xl">
+                        ATTORNEYS
+                    </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="nav-link text-dark-navy hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="#services" class="nav-link text-gray-700 hover:text-dark-navy px-3 py-2 text-sm font-medium">Services</a>
+                        <a href="#about" class="nav-link text-gray-700 hover:text-dark-navy px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#team" class="nav-link text-gray-700 hover:text-dark-navy px-3 py-2 text-sm font-medium">Team</a>
+                        <a href="#contact" class="nav-link text-gray-700 hover:text-dark-navy px-3 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-dark-navy">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-dark-navy font-medium">Home</a>
+                <a href="#services" class="block px-3 py-2 text-gray-700 hover:text-dark-navy">Services</a>
+                <a href="#about" class="block px-3 py-2 text-gray-700 hover:text-dark-navy">About</a>
+                <a href="#team" class="block px-3 py-2 text-gray-700 hover:text-dark-navy">Team</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-dark-navy">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white pt-20 relative">
+        <div class="floating-elements">
+            <!-- Floating Legal Icons -->
+            <div class="floating-icon">⚖️</div>
+            <div class="floating-icon">📋</div>
+            <div class="floating-icon">🏛️</div>
+            <div class="floating-icon">📜</div>
+            <div class="floating-icon">⚖️</div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-slide-up text-glow">
+                    <span class="changing-text" id="changingText">Professional Legal Services</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto animate-slide-left">
+                    Experienced legal representation across multiple practice areas. Your trusted partner in navigating complex legal matters.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-right">
+                    <a href="#contact" class="btn-hover bg-white text-dark-navy px-8 py-3 rounded-lg font-semibold">
+                        Get Consultation
+                    </a>
+                    <a href="#services" class="btn-hover border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-dark-navy">
+                        Our Services
+                    </a>
+                </div>
+                <div class="mt-12 animate-bounce-in">
+                    <div class="inline-flex items-center text-blue-200 pulse-animation">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                        <span class="text-sm">Scroll to explore</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-navy mb-4">About Pepu Attorneys</h2>
+                <p class="text-gray-600 text-lg max-w-3xl mx-auto">
+                    Founded on principles of excellence, integrity, and client-focused service, Pepu Attorneys has established itself as a trusted legal partner in South Africa.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="scroll-reveal">
+                    <h3 class="text-2xl font-bold text-dark-navy mb-6">Our Story</h3>
+                    <p class="text-gray-600 text-lg mb-6">
+                        Pepu Attorneys was established with a vision to provide accessible, high-quality legal services across multiple practice areas. Our firm combines traditional legal expertise with modern approaches to deliver exceptional results for our clients.
+                    </p>
+                    <p class="text-gray-600 text-lg mb-6">
+                        We understand that legal matters can be complex and overwhelming. That's why we're committed to providing clear, practical advice and personalized attention to every client who walks through our doors.
+                    </p>
+                </div>
+                
+                <div class="scroll-reveal">
+                    <div class="bg-gradient-to-br from-dark-navy to-blue-600 text-white p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-6">Why Choose Pepu Attorneys?</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-white text-dark-navy rounded-full p-2 mr-4 mt-1">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white mb-1">Experienced Legal Team</h4>
+                                    <p class="text-blue-100 text-sm">Skilled attorneys with extensive experience across multiple practice areas</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-white text-dark-navy rounded-full p-2 mr-4 mt-1">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white mb-1">Client-Focused Approach</h4>
+                                    <p class="text-blue-100 text-sm">Personalized legal strategies designed to achieve your specific goals</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-white text-dark-navy rounded-full p-2 mr-4 mt-1">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white mb-1">Comprehensive Services</h4>
+                                    <p class="text-blue-100 text-sm">Full-service legal support from consultation to resolution</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-white text-dark-navy rounded-full p-2 mr-4 mt-1">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white mb-1">Proven Track Record</h4>
+                                    <p class="text-blue-100 text-sm">Successful outcomes and satisfied clients across all practice areas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 animated-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-navy mb-4">Our Legal Services</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                    Comprehensive legal solutions tailored to meet your personal and business needs
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Cards -->
+                <div class="service-card bg-white p-6 rounded-lg border hover:border-dark-navy scroll-reveal">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 2L3 7v11a2 2 0 002 2h10a2 2 0 002-2V7l-7-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Family Law</h3>
+                    <p class="text-gray-600">Expert guidance in family matters, divorce proceedings, and domestic relations.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Wills and Estates</h3>
+                    <p class="text-gray-600">Comprehensive estate planning and will drafting services.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Civil Litigation</h3>
+                    <p class="text-gray-600">Skilled representation in civil disputes and court proceedings.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+                            <path fill-rule="evenodd" d="M4 5a2 2 0 012-2v1a1 1 0 102 0V3a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 2a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Contract Law</h3>
+                    <p class="text-gray-600">Contract drafting, review, and dispute resolution services.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Legal Drafting</h3>
+                    <p class="text-gray-600">Professional legal document preparation and drafting services.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Opinions & Research</h3>
+                    <p class="text-gray-600">Comprehensive legal research and professional legal opinions.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Mediation</h3>
+                    <p class="text-gray-600">Alternative dispute resolution through professional mediation services.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Arbitration</h3>
+                    <p class="text-gray-600">Professional arbitration services for dispute resolution.</p>
+                </div>
+
+                <div class="service-card bg-gray-50 p-6 rounded-lg border hover:border-dark-navy">
+                    <div class="text-dark-navy mb-4">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"/>
+                            <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-dark-navy mb-2">Insolvency Law</h3>
+                    <p class="text-gray-600">Expert guidance in insolvency and bankruptcy proceedings.</p>
+                </div>
+            </div>
+
+            <!-- Additional Services -->
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">Trust Law</h4>
+                    <p class="text-sm text-gray-600">Trust administration and management</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">Commercial & Consumer Law</h4>
+                    <p class="text-sm text-gray-600">Business and consumer protection</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">Debt Review</h4>
+                    <p class="text-sm text-gray-600">Debt counseling and review services</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">Child Custody</h4>
+                    <p class="text-sm text-gray-600">Child custody and support matters</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">Labour Law</h4>
+                    <p class="text-sm text-gray-600">Employment and workplace disputes</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">Injury Law</h4>
+                    <p class="text-sm text-gray-600">Personal injury claims</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">Property Law</h4>
+                    <p class="text-sm text-gray-600">Real estate and property matters</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-semibold text-dark-navy mb-2">MVA</h4>
+                    <p class="text-sm text-gray-600">Motor vehicle accident claims</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+<!-- Team Section -->
+<section id="team" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 scroll-reveal">
+            <h2 class="text-3xl md:text-4xl font-bold text-dark-navy mb-4">Meet Our Team</h2>
+            <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                Our experienced legal professionals are dedicated to providing exceptional service and achieving the best outcomes for our clients.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Team Member 1 -->
+            <div class="team-card bg-white rounded-lg shadow-lg overflow-hidden scroll-reveal">
+                <div class="aspect-[3/2] w-full overflow-hidden rounded-t-lg bg-gray-100">
+                    <img src="images/zandile.jpg" alt="Zandile Pepu" class="w-full h-full object-contain">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-dark-navy mb-2">Zandile Pepu</h3>
+                    <p class="text-blue-600 font-medium mb-3">Director</p>
+                    <p class="text-gray-600 text-sm mb-4">Specializing in Family Law, Civil Litigation, and Contract Law with over 15 years of experience.</p>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="mailto:zandile@pepu.co.za" class="text-blue-600 hover:text-dark-navy">
+                            <i class="fas fa-envelope text-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/zandile-pepu-218760262/" target="_blank" class="text-blue-600 hover:text-dark-navy">
+                            <i class="fab fa-linkedin text-lg"></i>
+                        </a>
+                    </div>
+                    <div class="text-sm">
+                        <h4 class="font-semibold mb-2">Areas of Expertise:</h4>
+                        <ul class="space-y-1">
+                            <li>• Family Law & Divorce</li>
+                            <li>• Civil Litigation</li>
+                            <li>• Contract Disputes</li>
+                            <li>• Child Custody</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="team-card bg-white rounded-lg shadow-lg overflow-hidden scroll-reveal">
+                <div class="aspect-[3/2] w-full overflow-hidden rounded-t-lg bg-gray-100">
+                    <img src="images/associate.jpg" alt="Legal Associate" class="w-full h-full object-contain">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-dark-navy mb-2">Legal Associate</h3>
+                    <p class="text-blue-600 font-medium mb-3">Associate Attorney</p>
+                    <p class="text-gray-600 text-sm mb-4">Expert in Property Law, Wills & Estates, and Commercial Law with a focus on client satisfaction.</p>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="mailto:associate@pepu.co.za" class="text-blue-600 hover:text-dark-navy">
+                            <i class="fas fa-envelope text-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/associate-attorney" target="_blank" class="text-blue-600 hover:text-dark-navy">
+                            <i class="fab fa-linkedin text-lg"></i>
+                        </a>
+                    </div>
+                    <div class="text-sm">
+                        <h4 class="font-semibold mb-2">Areas of Expertise:</h4>
+                        <ul class="space-y-1">
+                            <li>• Property Transactions</li>
+                            <li>• Wills & Estate Planning</li>
+                            <li>• Commercial Law</li>
+                            <li>• Trust Administration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-card bg-white rounded-lg shadow-lg overflow-hidden scroll-reveal">
+                <div class="aspect-[3/2] w-full overflow-hidden rounded-t-lg bg-gray-100">
+                    <img src="images/consultant.jpg" alt="Legal Consultant" class="w-full h-full object-contain">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-dark-navy mb-2">Legal Consultant</h3>
+                    <p class="text-blue-600 font-medium mb-3">Senior Consultant</p>
+                    <p class="text-gray-600 text-sm mb-4">Specializing in Labour Law, Injury Claims, and Debt Review with extensive courtroom experience.</p>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="mailto:consultant@pepu.co.za" class="text-blue-600 hover:text-dark-navy">
+                            <i class="fas fa-envelope text-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/legal-consultant" target="_blank" class="text-blue-600 hover:text-dark-navy">
+                            <i class="fab fa-linkedin text-lg"></i>
+                        </a>
+                    </div>
+                    <div class="text-sm">
+                        <h4 class="font-semibold mb-2">Areas of Expertise:</h4>
+                        <ul class="space-y-1">
+                            <li>• Labour & Employment Law</li>
+                            <li>• Personal Injury Claims</li>
+                            <li>• Debt Review & Counseling</li>
+                            <li>• MVA Claims</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Consultation & Contact Section -->
+<section id="contact" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Heading -->
+        <div class="text-center mb-16 scroll-reveal">
+            <h2 class="text-3xl md:text-4xl font-bold text-dark-navy mb-4">Get in Touch</h2>
+            <p class="text-gray-600 text-lg">
+                Ready to discuss your legal matter? Contact our experienced team for a professional consultation.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Contact Info -->
+            <div class="bg-gray-50 p-8 rounded-lg shadow-lg scroll-reveal">
+                <h3 class="text-xl font-bold text-dark-navy mb-6">Contact Details</h3>
+
+                <div class="space-y-6">
+                    <!-- Address -->
+                    <div class="flex items-start">
+                        <div class="bg-dark-navy text-white rounded-full p-3 mr-4">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-dark-navy mb-1">Address</h4>
+                            <p class="text-gray-600">No.5 Liebenberg Road<br>Noordwyk, Midrand</p>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="flex items-start">
+                        <div class="bg-dark-navy text-white rounded-full p-3 mr-4">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-dark-navy mb-1">Phone</h4>
+                            <p class="text-gray-600">
+                                <a href="tel:+27838009927" class="hover:text-dark-navy">+27 83 800 9927</a><br>
+                                <a href="tel:+27104479811" class="hover:text-dark-navy">+27 10 447 9811</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="flex items-start">
+                        <div class="bg-dark-navy text-white rounded-full p-3 mr-4">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-dark-navy mb-1">Email</h4>
+                            <p class="text-gray-600">
+                                <a href="mailto:zandile@pepu.co.za" class="hover:text-dark-navy">zandile@pepu.co.za</a><br>
+                                <a href="mailto:info@pepu.co.za" class="hover:text-dark-navy">info@pepu.co.za</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Office Hours -->
+                <div class="mt-8 pt-8 border-t border-gray-200">
+                    <h4 class="font-semibold text-dark-navy mb-3">Office Hours</h4>
+                    <div class="text-gray-600 space-y-1">
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        <p>Saturday: 9:00 AM - 1:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Consultation Form -->
+            <div class="bg-gray-50 p-8 rounded-lg shadow-lg scroll-reveal">
+                <form class="space-y-6" onsubmit="sendToWhatsApp(); return false;">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+            <input id="fullname" type="text" class="..." placeholder="Your full name">
+        </div>
+        <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+            <input id="email" type="email" class="..." placeholder="your.email@example.com">
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+            <input id="phone" type="tel" class="..." placeholder="+27 XX XXX XXXX">
+        </div>
+        <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Legal Matter</label>
+            <select id="matter" class="...">
+                <option value="">Select a service</option>
+                <option>Family Law</option>
+                <option>Wills and Estates</option>
+                <option>Civil Litigation</option>
+                <option>Contract Law</option>
+                <option>Property Law</option>
+                <option>Labour Law</option>
+                <option>Other</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+        <textarea id="message" rows="4" class="..." placeholder="Briefly describe your legal matter..."></textarea>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn-hover bg-dark-navy text-white py-3 px-8 rounded-md font-semibold text-lg">
+            Request Consultation
+        </button>
+        <p class="text-sm text-gray-500 mt-4">Your details will be sent via WhatsApp.</p>
+    </div>
+</form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Google Map Iframe -->
+<section class="bg-white pb-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="rounded-lg overflow-hidden shadow-md">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.705358957028!2d28.11931127496379!3d-25.953705053818084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956f70483537c3%3A0xe982c1ae846bee14!2sPEPU%20ATTORNEYS!5e1!3m2!1sen!2sza!4v1753699017088!5m2!1sen!2sza" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+<footer class="bg-dark-navy text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Logo & Description -->
+            <div class="md:col-span-2">
+                <div class="flex items-center space-x-3 mb-4">
+                    <img src="images/logo.jpg" alt="Pepu Attorneys Logo" class="h-10 w-auto">
+                    <div class="bg-white text-dark-navy px-4 py-2 rounded-lg font-bold text-xl inline-block">
+                        Pepu Attorneys
+                    </div>
+                </div>
+                <p class="text-blue-100 mb-4">
+                    Professional legal services across multiple practice areas. Your trusted partner in navigating complex legal matters.
+                </p>
+
+                <!-- Email & Phone Icons -->
+                <div class="flex space-x-4 mb-4">
+                    <a href="mailto:info@pepu.co.za" class="text-blue-200 hover:text-white">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                        </svg>
+                    </a>
+                    <a href="tel:+27838009927" class="text-blue-200 hover:text-white">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Social Media -->
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/pepuattorneys/" target="_blank" class="hover:text-white">
+                        <i class="fab fa-facebook-f text-xl text-blue-400"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pepuattorneys/" target="_blank" class="hover:text-white">
+                        <i class="fab fa-instagram text-xl text-pink-400"></i>
+                    </a>
+                    <a href="https://wa.me/27603769727" target="_blank" class="hover:text-white">
+                        <i class="fab fa-whatsapp text-xl text-green-400"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/pepu-attorneys/?originalSubdomain=za" target="_blank" class="hover:text-white">
+                        <i class="fab fa-linkedin-in text-xl text-blue-300"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2 text-blue-100">
+                    <li><a href="#home" class="hover:text-white">Home</a></li>
+                    <li><a href="#services" class="hover:text-white">Services</a></li>
+                    <li><a href="#about" class="hover:text-white">About</a></li>
+                    <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Practice Areas -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Practice Areas</h3>
+                <ul class="space-y-2 text-blue-100 text-sm">
+                    <li>Family Law</li>
+                    <li>Civil Litigation</li>
+                    <li>Contract Law</li>
+                    <li>Property Law</li>
+                    <li>Labour Law</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200">
+            <p>&copy; 2024 Pepu Attorneys Services. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Demo form submission
+        function showDemo() {
+            alert('Demo Form Submission\n\nIn a live website, this form would:\n• Send your inquiry to the law firm\n• Schedule a consultation\n• Provide confirmation details\n\nThank you for your interest in Pepu Attorneys Services!');
+        }
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        // Scroll reveal animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all scroll-reveal elements
+        document.querySelectorAll('.scroll-reveal').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add staggered animation to service cards
+        const serviceCards = document.querySelectorAll('.service-card');
+        serviceCards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+
+        // Add staggered animation to team cards
+        const teamCards = document.querySelectorAll('.team-card');
+        teamCards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.2}s`;
+        });
+
+        // Changing text animation
+        const changingTexts = [
+            "Professional Legal Services",
+            "Expert Legal Representation",
+            "Your Trusted Legal Partner",
+            "Comprehensive Legal Solutions",
+            "Excellence in Legal Practice",
+            "Dedicated Legal Advocacy"
+        ];
+        
+        let currentTextIndex = 0;
+        const changingTextElement = document.getElementById('changingText');
+        
+        function changeText() {
+            changingTextElement.classList.add('text-fade');
+            
+            setTimeout(() => {
+                currentTextIndex = (currentTextIndex + 1) % changingTexts.length;
+                changingTextElement.textContent = changingTexts[currentTextIndex];
+            }, 2000);
+            
+            setTimeout(() => {
+                changingTextElement.classList.remove('text-fade');
+            }, 4000);
+        }
+        
+        // Start the text changing animation
+        setInterval(changeText, 4000);
+    </script>
+    <script>
+function sendToWhatsApp() {
+    const name = document.getElementById('fullname').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const matter = document.getElementById('matter').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    const text = `Hello, I would like to schedule a legal consultation:\n\n` +
+                 `*Full Name:* ${name}\n` +
+                 `*Email:* ${email}\n` +
+                 `*Phone:* ${phone}\n` +
+                 `*Legal Matter:* ${matter}\n` +
+                 `*Message:* ${message}`;
+
+    const encodedText = encodeURIComponent(text);
+    const whatsappURL = `https://wa.me/27603769727?text=${encodedText}`;
+    window.open(whatsappURL, '_blank');
+}
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'966332ea7467bc14',t:'MTc1MzY5MzM2MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
